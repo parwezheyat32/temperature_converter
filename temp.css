@@ -1,0 +1,58 @@
+*{
+  margin: 0;  
+  padding:0;
+  
+}
+#home{
+    background-color: rgb(111, 201, 201);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+#home h1{
+    color:red;
+    margin-bottom: 50px;
+
+}
+.temperature{
+    display: flex;
+    flex-direction: row;
+    color: red;
+    background-color:rgb(175, 235, 235);
+    height: 200px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fahrenheit{
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.celsius{
+    margin:3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.kelvin{
+    margin:3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.input{
+    text-align: center;
+}
